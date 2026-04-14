@@ -1,13 +1,19 @@
 import { Product, NavItem } from './types';
 
-export const NAV_ITEMS: NavItem[] = [
+export const NAV_ITEMS: NavItem[] = [{
+  
+},
   { label: 'Home', href: '#home' },
   { label: 'Collection', href: '#collection' },
   { label: 'Our Story', href: '#story' },
   { label: 'Contact', href: '#contact' },
 ];
 
-export const PRODUCTS: Product[] = [
+export const PRODUCTS: Product[] = [{
+  id: "Offline & In His Presence",
+  image: "/offline.png",
+  
+},
   {
     id: 'faith-focus',
     name: 'Faith In Focus',
