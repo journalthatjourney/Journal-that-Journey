@@ -13,9 +13,14 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
       <div className="relative aspect-[4/5] overflow-hidden bg-brand-surface">
         <img
           src={product.imageSrc}
-          alt={product.imageAlt}
-          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-        />
+  alt={product.imageAlt}
+  style={{
+    boxShadow: "0 15px 35px rgba(0,0,0,0.25)",
+    borderRadius: "10px",
+    transform: "scale(1.08)",
+    transition: "0.3s ease"
+  }}
+/>
         
         {/* Overlay on Hover */}
         <div className="absolute inset-0 bg-brand-dark/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
