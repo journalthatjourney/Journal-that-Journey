@@ -9,7 +9,7 @@ export const NAV_ITEMS: NavItem[] = [{
   { label: 'Contact', href: '#contact' },
 ];
 
-export const PRODUCTS: Product[] = [{
+export const PRODUCTS: Product[] = [
   {
   id: "offline-presence",
   name: "Offline & In His Presence",
