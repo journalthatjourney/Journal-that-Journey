@@ -9,14 +9,15 @@ export const NAV_ITEMS: NavItem[] = [{
   { label: 'Contact', href: '#contact' },
 ];
 
-export const PRODUCTS: Product[] = [
-  
-  id:  "Offline & In His Presence"
-  name:  'Offline &  In His Presence'
-   href:'https://www.amazon.com/Offline-His-Presence-Digital-Journal/dp/B0GHNZXLM1/ref=sr_1_7?crid=A26BG7SFHH4I&dib=eyJ2IjoiMSJ9.J0jIXuEzA3LbEZ16kCsqS2f-i-jqnymaNwXQHzqP8EPRa_U-51OZ_ohl2jTXi9E1h1ua5HUYx_4bKbnOw2yWKycrJMiCaWfWoj0VpBYe5iWN7zMdS_MliQerhS_QoHiK0UKVBgvmAPlRft-_Hm7ygbQb6V5oMqwGd5mwxebwaJOThw-_MpWJo24-xLNldTkDRri26YMcRfChC_M1aRHj4OUyhV3oq-6hPMIVLoay_20.2J1R3OqkIFY9bATcd1hoiIWoXfa4Nktsv1C01T2gIag&dib_tag=se&keywords=delano+richards&qid=1776209813&sprefix=%2Caps%2C248&sr=8-7
-,price:'$9.50',
+export const PRODUCTS: Product[] = [{
+  {
+  id: "offline-presence",
+  name: "Offline & In His Presence",
+  href: 'https://www.amazon.com/Offline-His-Presence-Digital-Journal/dp/B0GHNZXLM1/ref=sr_1_7?crid=A26BG7SFHH4I&dib=eyJ2IjoiMSJ9.J0jIXuEzA3LbEZ16kCsqS2f-i-jqnymaNwXQHzqP8EPRa_U-51OZ_ohl2jTXi9E1h1ua5HUYx_4bKbnOw2yWKycrJMiCaWfWoj0VpBYe5iWN7zMdS_MliQerhS_QoHiK0UKVBgvmAPlRft-_Hm7ygbQb6V5oMqwGd5mwxebwaJOThw-_MpWJo24-xLNldTkDRri26YMcRfChC_M1aRHj4OUyhV3oq-6hPMIVLoay_20.2J1R3OqkIFY9bATcd1hoiIWoXfa4Nktsv1C01T2gIag&dib_tag=se&keywords=delano+richards&qid=1776209813&sprefix=%2Caps%2C248&sr=8-7
+  price: "$9.50",
   image: "/offline-peace.jpg",
-   imageAlt: "Offline & In His Presence:A 30-Day Digital Detox & Quiet Time
+  imageAlt: "Offline & In His Presence Journal",
+},
 
 
 
