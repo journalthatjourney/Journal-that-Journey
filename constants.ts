@@ -9,8 +9,8 @@ export const NAV_ITEMS: NavItem[] = [{
   { label: 'Contact', href: '#contact' },
 ];
 
-export const PRODUCTS: Product[] = [
-  {
+export const PRODUCTS: Product[] = [{
+  
   id: "offline-presence",
   name: "Offline & In His Presence",
   href: "https://www.amazon.com/Offline-His-Presence-Digital-Journal/dp/BOGHNZXLMI",
@@ -18,7 +18,7 @@ export const PRODUCTS: Product[] = [
   image: "/offline-peace.jpg",
   imageAlt: "Offline & In His Presence Journal",
 },
-
+  {
     id: 'faith-focus',
     name: 'Faith In Focus',
     href: 'https://www.amazon.com/Faith-Foucs-Guided-Prayer-Journal/dp/B0FNRGZ1G6/ref=sr_1_1?crid=278PMRUWPBEOS&dib=eyJ2IjoiMSJ9.k2YkHBbOGExAE_pHA6JpJG7eqF95qPb61_zAbuojI9Y.z7Bd_jute5heYaqZevRKgSWdncyIbzFFAIm5dEJlduA&dib_tag=se&keywords=faith+in+focus+delano+richards&qid=1767292796&s=digital-text&sprefix=faith+in+focus+delano+richards%2Cdigital-text%2C147&sr=1-1',
