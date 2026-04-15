@@ -15,7 +15,7 @@ export const PRODUCTS: Product[] = [{
   name: "Offline & In His Presence",
   href: "https:///www.amazon.com/Offline-His-Presence-Digital-Journal/dp/BOGHNZXLMI",
   price: "$9.50",
-  image: "/offline-peace.jpg",
+  image: "/offline-peace.png",
   imageAlt: "Offline & In His Presence Journal",
 },
   {
