@@ -10,8 +10,7 @@ export const NAV_ITEMS: NavItem[] = [{
 ];
 
 export const PRODUCTS: Product[] = [{
-  
-  id: "offline-presence",
+   id: "offline-presence",
   name: "Offline & In His Presence",
   href: "https://www.amazon.com/dp/BOGHNZXLMI",
   price: "$9.50",
