@@ -12,13 +12,11 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
       {/* Image Area - Taller aspect ratio for books */}
       <div className="relative aspect-[4/5] overflow-hidden bg-brand-surface">
         <img
-          src={product.imageSrc}
+      
+  src={product.imageSrc}
   alt={product.imageAlt}
-  style={{
-    boxShadow: "0 15px 35px rgba(0,0,0,0.25)",
-    borderRadius: "10px",
-    transform: "scale(1.08)",
-    transition: "0.3s ease"
+  className="rounded-lg shadow-xl transform scale-105 hover:scale-110 transition duration-300"
+/>
   }}
 />
         
