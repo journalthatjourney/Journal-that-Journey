@@ -55,13 +55,9 @@ export const PRODUCTS: Product[] = [{
     href: 'https://www.amazon.com/Your-Daily-Pause-Intentional-Over-One/dp/B0FMNNQRWW/ref=sr_1_1?crid=2LJ14Y42T0ZY7&dib=eyJ2IjoiMSJ9.yR_qZAy3bHsmRMUQD_P9rg.QD01m5rxIicuc2ZenlFBc8bkDEg161z8RFDHVwi_ZEE&dib_tag=se&keywords=your+daily+pause+delano+richards&qid=1767292700&s=digital-text&sprefix=your+daily+pause+delano+richards+%2Cdigital-text%2C135&sr=1-1',
     price: '$12.00',
     imageSrc: 'https://i.postimg.cc/CLZKJ3wv/daily_pause.png',
-    imageAlt: 'Your Daily Pause: A Journal for Intentional Living',
-  },
-  
-    
- 
- {
-
+    imageAlt:'Your Daily Pause: A Journal for Intentional Living',                                     
+  }
+  };
 export const SOCIAL_LINKS = {
   email: 'hello@journalthatjourney.com',
   website: 'https://journalthatjourney.com',
