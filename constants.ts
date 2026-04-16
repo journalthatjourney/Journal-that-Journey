@@ -54,7 +54,7 @@ export const PRODUCTS: Product[] = [{
   name: 'Overcoming Within: A 12-Week Guided Journal',
   href: 'https://www.amazon.com/dp/B0GTHTGCT6',
   price: '$9.99',
-  imageSrc: 'PASTE_YOUR_IMAGE_LINK_HERE',
+  imageSrc: 'overcoming WITHIN (1).png',
   imageAlt: 'Overcoming Within Journal',
   },
   {
