@@ -22,7 +22,7 @@ export const PRODUCTS: Product[] = [{
   name: 'Faith Over Fear',
   href: 'https://www.amazon.com/Faith-Over-Fear-Building-Overcoming/dp/B0GW3DKQ2Z',
   price: '$12.00',
-  imageSrc: 'PASTE_YOUR_IMAGE_LINK_HERE',
+  imageSrc: 'faith over fear.png',
   imageAlt: 'Faith Over Fear Journal',
 },  
  {
