@@ -27,11 +27,11 @@ export const PRODUCTS: Product[] = [{
 },  
  { 
   id:'called-presence',
-  name: 'Called To Preach',  
-  href:
-  price:
-  imageSrc: 
-  imageAlt:
+  name: 'Called To Preach : Ministry Notes & Sermon Planner',  
+  href:'https://www.amazon.com/dp/B0GHFG1DQL',
+  price: '$11.00',
+  imageSrc:'called to preach.png',
+  imageAlt:'Called to Preach Sermon Planner',
   },
  {
      id: 'faith-focus',
@@ -50,12 +50,12 @@ export const PRODUCTS: Product[] = [{
     imageAlt: 'Faith Notes: A Lined Journal with Scripture',
   },
   {
-    id: 'overcoming-within',
-    name: 'Overcoming Within',
-    href: 'https://www.amazon.com/Overcoming-Within-Journal-Healing-Depression/dp/B0G476FSZV/ref=sr_1_1?crid=36J3G1G88H7TA&dib=eyJ2IjoiMSJ9.NjYCpMEX-5JyPR_StejVAg.m6nnvgrIWJxgEyeb6_Z_n40Rn-ZBv4r3YT31jCQwVBs&dib_tag=se&keywords=overcoming+within+delano+richards&qid=1767292893&s=digital-text&sprefix=overcoming+within+delano+richards%2Cdigital-text%2C120&sr=1-1',
-    price: '$8.00',
-    imageSrc: 'https://i.postimg.cc/28q5TsC4/overcoming_within.png',
-    imageAlt: 'Overcoming Within: A 12-Week Guided Journal',
+  id: 'overcoming-within',
+  name: 'Overcoming Within: A 12-Week Guided Journal',
+  href: 'https://www.amazon.com/dp/B0GTHTGCT6',
+  price: '$9.99',
+  imageSrc: 'PASTE_YOUR_IMAGE_LINK_HERE',
+  imageAlt: 'Overcoming Within Journal',
   },
   {
     id: 'sermon-journal',
