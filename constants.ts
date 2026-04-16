@@ -59,8 +59,7 @@ export const PRODUCTS: Product[] = [{
   },
   {
     
-  },
-];
+
 
 export const SOCIAL_LINKS = {
   email: 'hello@journalthatjourney.com',
