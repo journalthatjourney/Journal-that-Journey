@@ -17,8 +17,16 @@ export const PRODUCTS: Product[] = [{
   imageSrc: "/offline-in his presence (2).png",
   imageAlt: "Offline & In His Presence Journal",
 },
-  {
-    id: 'faith-focus',
+ { 
+  id: 'faith-fear',
+  name: 'Faith Over Fear',
+  href: 'https://www.amazon.com/Faith-Over-Fear-Building-Overcoming/dp/B0GW3DKQ2Z',
+  price: '$12.00',
+  imageSrc: 'PASTE_YOUR_IMAGE_LINK_HERE',
+  imageAlt: 'Faith Over Fear Journal',
+},  
+ {
+     id: 'faith-focus',
     name: 'Faith In Focus',
     href: 'https://www.amazon.com/Faith-Foucs-Guided-Prayer-Journal/dp/B0FNRGZ1G6/ref=sr_1_1?crid=278PMRUWPBEOS&dib=eyJ2IjoiMSJ9.k2YkHBbOGExAE_pHA6JpJG7eqF95qPb61_zAbuojI9Y.z7Bd_jute5heYaqZevRKgSWdncyIbzFFAIm5dEJlduA&dib_tag=se&keywords=faith+in+focus+delano+richards&qid=1767292796&s=digital-text&sprefix=faith+in+focus+delano+richards%2Cdigital-text%2C147&sr=1-1',
     price: '$20.50',
