@@ -72,9 +72,7 @@ export const PRODUCTS: Product[] = [{
     price: '$12.00',
     imageSrc: 'https://i.postimg.cc/CLZKJ3wv/daily_pause.png',
     imageAlt:'Your Daily Pause: A Journal for Intentional Living',                                     
-   },
-  {   
-  },
+   }    
 ];
 export const SOCIAL_LINKS = {
   email: 'hello@journalthatjourney.com',
