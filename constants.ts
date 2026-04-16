@@ -25,6 +25,14 @@ export const PRODUCTS: Product[] = [{
   imageSrc: 'faith over fear.png',
   imageAlt: 'Faith Over Fear Journal',
 },  
+ { 
+  id:'called-presence',
+  name: 'Called To Preach',  
+  href:
+  price:
+  imageSrc: 
+  imageAlt:
+  },
  {
      id: 'faith-focus',
     name: 'Faith In Focus',
