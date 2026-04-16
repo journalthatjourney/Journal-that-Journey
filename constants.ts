@@ -58,12 +58,7 @@ export const PRODUCTS: Product[] = [{
     imageAlt: 'Your Daily Pause: A Journal for Intentional Living',
   },
   {
-    id: 'strong-courageous',
-    name: 'Be Strong & Courageous',
-    href: 'https://www.amazon.com/Strong-Courageous-Lined-Journal-Book/dp/B0FMNMSRTB/ref=sr_1_1?crid=QPASDG1K8LE&dib=eyJ2IjoiMSJ9.PcHYnF60sVwOupa5zjzlUWTe2LWac_xUvQ9DZa-DmUrGjHj071QN20LucGBJIEps.a86EALqQbDRbRY3rM12klj4Da825Uw-11K6qOnNEoR8&dib_tag=se&keywords=be+strong+and+courageous+delano+richards&qid=1767290888&s=digital-text&sprefix=be+strong+and+courageous+delano+richards%2Cdigital-text%2C110&sr=1-1',
-    price: '$12.00',
-    imageSrc: 'https://i.postimg.cc/c4KJTpd9/strong_courageuos.png',
-    imageAlt: 'Be Strong & Courageous Journal with Pineapples',
+    
   },
 ];
 
