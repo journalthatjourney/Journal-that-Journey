@@ -31,7 +31,7 @@ export const PRODUCTS: Product[] = [{
     href:'https://www.amazon.com/dp/B0GYNDKDR2',
     price: '9.99',
     imageSrc:'WAITING SEASON.png',
-    imageAlt: 'waiting season journal',
+    imageAlt:'The Waiting Season: A Guided Journal for Trusting God in the In-Between',
   },
  { 
   id:'called-presence',
