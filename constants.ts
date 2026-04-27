@@ -24,7 +24,15 @@ export const PRODUCTS: Product[] = [{
   price: '$12.00',
   imageSrc: 'faith over fear.png',
   imageAlt: 'Faith Over Fear Journal',
-},  
+}, 
+  {
+    id:' waiting season',
+    name:'The Waiting Season: A Guided Journal for Trusting God in the In-Between',
+    href:'https://www.amazon.com/dp/B0GYNDKDR2',
+    price: '9.99',
+    imageSrc:'WAITING SEASON.png',
+    imageAlt: 'waiting season journal',
+  },
  { 
   id:'called-presence',
   name: 'Called To Preach : Ministry Notes & Sermon Planner',  
