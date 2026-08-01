@@ -1,8 +1,7 @@
 import { Product, NavItem } from './types';
 
-export const NAV_ITEMS: NavItem[] = [{
-  
-},
+export const NAV_ITEMS: NavItem[] = [
+
   { label: 'Home', href: '#home' },
   { label: 'Collection', href: '#collection' },
   { label: 'Our Story', href: '#story' },
@@ -14,7 +13,7 @@ export const PRODUCTS: Product[] = [{
   name: "Offline & In His Presence",
   href: "https://www.amazon.com/dp/B0GHNZXLM1",
   price: "$9.50",
-  imageSrc: "/offline-in his presence (2).png",
+  imageSrc: '/offline-in his presence (2).png',
   imageAlt: "Offline & In His Presence Journal",
 },
  { 
@@ -22,7 +21,7 @@ export const PRODUCTS: Product[] = [{
   name: 'Faith Over Fear',
   href: 'https://www.amazon.com/Faith-Over-Fear-Building-Overcoming/dp/B0GW3DKQ2Z',
   price: '$12.00',
-  imageSrc: 'faith over fear.png',
+  imageSrc: "/faith over fear.png",
   imageAlt: 'Faith Over Fear Journal',
 }, 
   {
