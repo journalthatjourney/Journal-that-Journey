@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Certificate Preview</title>
+    <style>
+      html,body,#root{height:100%;margin:0}
+      body{display:flex;align-items:center;justify-content:center;background:#f3f2ef;padding:24px}
+      #root{width:100%;max-width:none}
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script type="module">
+      import React from 'react'
+      import { createRoot } from 'react-dom/client'
+      import Certificate from './components/Certificate.tsx'
+
+      const root = createRoot(document.getElementById('root'))
+
+      // Example props — change these by editing this file when testing different names
+      root.render(
+        React.createElement(Certificate, {
+          firstName: 'Jane',
+          lastName: 'Doe',
+          challengeTitle: '30 Days Closer to God'
+        })
+      )
+    </script>
+  </body>
+  </html>

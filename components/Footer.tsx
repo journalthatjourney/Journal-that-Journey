@@ -26,7 +26,27 @@ const Footer: React.FC = () => {
           <span className="font-serif text-2xl font-bold tracking-wide text-white">Journal That Journey</span>
           <p className="text-sm text-gray-400 mt-2 font-light tracking-wide">Faith. Reflection. Growth.</p>
         </div>
-        
+        <div className="flex items-center gap-5 mt-5">
+  <a
+    href="https://www.instagram.com/journalthatjourney"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-gray-400 hover:text-brand-accent transition-colors"
+    aria-label="Follow Journal That Journey on Instagram"
+  >
+    Instagram
+  </a>
+
+  <a
+    href="https://www.tiktok.com/@journalthatjourney"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-gray-400 hover:text-brand-accent transition-colors"
+    aria-label="Follow Journal That Journey on TikTok"
+  >
+    TikTok
+  </a>
+</div>
         <div className="flex space-x-8 text-sm text-gray-400 font-sans tracking-wider uppercase">
            <a 
              href="#home" 

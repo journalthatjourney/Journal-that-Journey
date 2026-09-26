@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
     const element = document.querySelector(href);
 
     if (element) {
-      const headerOffset = 100;
+      const headerOffset = 90;
       const elementPosition = element.getBoundingClientRect().top;
       const offsetPosition =
         elementPosition + window.scrollY - headerOffset;
@@ -24,103 +24,249 @@ const Hero: React.FC = () => {
 
   return (
     <section
-  id="home"
-  className="relative min-h-screen flex items-center overflow-hidden bg-cover bg-center bg-no-repeat"
-  style={{ backgroundImage: "url('/images/hero-botanical.png')" }}
->
-      <div className="absolute inset-0 pointer-events-none overflow-hidden">
-  {/* Soft cream center */}
-  <div className="absolute inset-0 bg-gradient-to-r from-[#A8B99B]/55 via-[#F2F0DF]/90 to-[#9CAF91]/60" />
+      id="home"
+      className="
+        relative
+        min-h-[680px]
+        lg:min-h-[680px]
+        overflow-hidden
+        bg-[#F5F1E8]
+      "
+    >
 
-  {/* Watercolor-style sage washes */}
-  <div className="absolute -top-24 -left-24 w-[48%] h-[75%] rounded-full bg-[#78927A]/35 blur-3xl" />
-  <div className="absolute top-10 -right-24 w-[45%] h-[80%] rounded-full bg-[#718B70]/40 blur-3xl" />
-  <div className="absolute -bottom-32 left-[15%] w-[55%] h-[45%] rounded-full bg-[#D7D6B8]/45 blur-3xl" />
+      {/* =====================================================
+          DESKTOP HERO IMAGE
+          LEAVE DESKTOP DESIGN AS-IS
+          ===================================================== */}
+      <img
+        src="/images/homepage-hero.png"
+        alt="Journal That Journey - Be Still Journal"
+        className="
+          hidden
+          md:block
+          absolute
+          inset-0
+          w-full
+          h-full
+          object-cover
+          object-center
+        "
+      />
+
+     {/* =====================================================
+    MOBILE HERO COMPOSITION
+    MOBILE ONLY — DO NOT AFFECT DESKTOP
+    ===================================================== */}
+
+<div
+  className="
+    md:hidden
+    absolute
+    inset-0
+    overflow-hidden
+    bg-[#F5F1E8]
+  "
+>
+ {/* MOBILE HERO IMAGE — MOBILE ONLY */}
+<img
+  src="/images/homepage-hero-mobile.png"
+  alt="Journal That Journey - Be Still Journal"
+  className="
+    md:hidden
+    absolute
+    inset-0
+    w-full
+    h-full
+    object-cover
+    object-center
+  "
+/>
+
+  {/* Soft cream blend on the left */}
+  <div
+    className="
+      absolute
+      inset-y-0
+      left-0
+      w-[58%]
+      bg-gradient-to-r
+      from-[#F5F1E8]/65
+      via-[#F5F1E8]/25
+      to-transparent
+    "
+  />
 </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 py-32 w-full">
-        <div className="grid lg:grid-cols-2 gap-14 lg:gap-20 items-center">
+      {/* =====================================================
+          DESKTOP OVERLAY
+          ===================================================== */}
+      <div
+        className="
+          hidden
+          md:block
+          absolute
+          inset-0
+          pointer-events-none
+          bg-gradient-to-r
+          from-[#F5F1E8]/35
+          via-[#F5F1E8]/10
+          to-transparent
+        "
+      />
 
-          {/* LEFT SIDE */}
-          <div className="text-center lg:text-left">
+  
 
-            <p className="font-sans text-[#8A6D3B] font-bold tracking-[0.25em] uppercase text-xs md:text-sm mb-6">
-              Write • Reflect • Grow
-            </p>
+      {/* =====================================================
+          CONTENT
+          ===================================================== */}
+      <div
+        className="
+          relative
+          z-10
+          max-w-7xl
+          mx-auto
+          px-6
+          lg:px-10
+          min-h-[680px]
+          lg:min-h-[800px]
+          flex
+          items-center
+        "
+      >
 
-            <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl text-[#1F3528] leading-tight mb-7">
-              Journals for the
-              <span className="block italic text-[#A37B35]">
-                Journey Within
-              </span>
-            </h1>
+        <div
+  className="
+    w-[68%]
+    md:w-[58%]
+    lg:w-[48%]
+    pt-10
+    md:pt-0
+  "
+>
 
-            <p className="font-sans text-lg md:text-xl text-[#4D5A50] max-w-xl mx-auto lg:mx-0 leading-relaxed mb-5">
-              Create space to pray, reflect, heal, and grow.
-            </p>
+          {/* =================================================
+              HEADING
+              ================================================= */}
+          <h1
+            className="
+              font-serif
+              text-[#1F3528]
+              text-[46px]
+              sm:text-6xl
+              md:text-8xl
+              lg:text-9xl
+              leading-[0.98]
+              mb-6
+              md:mb-7
+            "
+          >
+            <span className="block">
+              Journal That
+            </span>
 
-            <p className="font-sans text-base md:text-lg text-[#667068] max-w-xl mx-auto lg:mx-0 leading-relaxed mb-10">
-              Thoughtfully designed journals to help you deepen your faith,
-              capture your thoughts, and walk intentionally through every
-              season.
-            </p>
+            <span className="block italic text-[#A37B35]">
+              Journey
+            </span>
+          </h1>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+          {/* =================================================
+              DESCRIPTION
+              ================================================= */}
+          <p
+            className="
+              text-[#4D5A50]
+              text-[15px]
+              sm:text-base
+              md:text-lg
+              leading-[1.55]
+              max-w-[310px]
+              md:max-w-[330px]
+              lg:max-w-xl
+              mb-7
+              md:mb-8
+            "
+          >
+            Faith-based journals to help you grow closer to God,
+            stay consistent in prayer, and walk in His purpose
+            every day.
+          </p>
 
-              <a
-                href="#collection"
-                onClick={(e) => handleScroll(e, '#collection')}
-                className="inline-flex justify-center items-center px-8 py-4 bg-[#1F3528] text-white font-sans text-sm uppercase tracking-widest hover:bg-[#A37B35] transition-colors duration-300"
-              >
-                Shop the Collection
-              </a>
+          {/* =================================================
+              BUTTONS
+              ================================================= */}
+          <div
+            className="
+              flex
+              flex-col
+              sm:flex-row
+              gap-3
+              sm:gap-4
+            "
+          >
 
-              <a
-                href="#story"
-                onClick={(e) => handleScroll(e, '#story')}
-                className="inline-flex justify-center items-center px-8 py-4 border border-[#1F3528] text-[#1F3528] font-sans text-sm uppercase tracking-widest hover:bg-[#1F3528] hover:text-white transition-colors duration-300"
-              >
-                Our Story
-              </a>
+            {/* SHOP JOURNALS */}
+            <a
+              href="https://www.amazon.com/stores/Vanessa-Richards/author/B0GDW64HKR"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+                inline-flex
+                items-center
+                justify-center
+                bg-[#315B49]
+                text-white
+                px-4
+                py-2
+                text-xs
+                sm:text-sm
+                font-semibold
+                uppercase
+                tracking-wider
+                transition-all
+                duration-300
+                hover:bg-[#1F3528]
+                w-[170px]
+                sm:w-auto
+              "
+            >
+              Shop Journals
+            </a>
 
-            </div>
-          </div>
+            {/* OUR STORY */}
+            <a
+              href="#story"
+              onClick={(e) => handleScroll(e, '#story')}
+              className="
+                inline-flex
+                items-center
+                justify-center
+                border
+                border-[#315B49]
+                text-[#315B49]
+                px-4
+                py-2
+                text-xs
+                sm:text-sm
+                font-semibold
+                uppercase
+                tracking-wider
+                transition-all
+                duration-300
+                hover:bg-[#315B49]
+                hover:text-white
+                w-[170px]
+                sm:w-auto
+              "
+            >
+              Our Story
+            </a>
 
-          {/* RIGHT SIDE */}
-          <div className="relative flex justify-center lg:justify-end">
-            <div className="relative w-full max-w-lg">
-
-              <div className="absolute -top-5 -left-5 w-full h-full border border-[#A37B35]/40" />
-
-              <div className="relative bg-[#DCCDBA] p-8 md:p-12 shadow-xl">
-                <div className="border border-[#A37B35]/30 p-8 md:p-10 text-center">
-
-                  <p className="font-serif italic text-[#A37B35] text-lg mb-5">
-                    Journal That Journey
-                  </p>
-
-                  <h2 className="font-serif text-3xl md:text-4xl text-[#1F3528] leading-snug mb-6">
-                    Your story deserves
-                    <span className="block italic">
-                      space to be written.
-                    </span>
-                  </h2>
-
-                  <div className="w-16 h-px bg-[#A37B35] mx-auto mb-6" />
-
-                  <p className="font-sans text-[#5F675F] leading-relaxed">
-                    Faith-filled pages created for prayer, reflection,
-                    gratitude, purpose, and the seasons in between.
-                  </p>
-
-                </div>
-              </div>
-
-            </div>
           </div>
 
         </div>
+
       </div>
+
     </section>
   );
 };
